@@ -10,9 +10,21 @@ p {
 .sale {
   color: red;
 }
-.compare {
-  border: 2px solid black;
+a:link {
+  color: black;
+  text-decoration: none;
 }
-.compare:hover {
-  background-color: lightgray;
+a:visited {
+  text-decoration: none;
+  color: black;
 }
+.button {
+  border: 1px black solid;
+  padding: 1em;
+  position: relative;
+  top: 1em;
+}
+.button:hover {
+  background-color: lightgrey;
+}
+
