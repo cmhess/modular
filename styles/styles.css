@@ -1,7 +1,18 @@
-.rating > span:hover:before {
-   content: "\2605";
-   position: absolute;
-}
-.title {
+p {
   font-family: 'Roboto', sans-serif;
+}
+.title:hover {
+  text-decoration: underline;
+}
+.price {
+  text-decoration:line-through;
+}
+.sale {
+  color: red;
+}
+.compare {
+  border: 2px solid black;
+}
+.compare:hover {
+  background-color: lightgray;
 }
